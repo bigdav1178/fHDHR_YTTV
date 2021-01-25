@@ -1,0 +1,91 @@
+{
+  "main":{
+          "servicename":{
+                "value": "Youtube TV",
+                "config_file": false,
+                "config_web": false
+                },
+          "dictpopname":{
+                      "value": "yttv",
+                      "config_file": false,
+                      "config_web": false
+                    },
+          "reponame":{
+                          "value": "fHDHR_YTTV",
+                          "config_file": false,
+                          "config_web": false
+                        },
+          "required":{
+                          "value": "yttv/username,yttv/password",
+                          "config_file": false,
+                          "config_web": false
+                        }
+  },
+  "fhdhr":{
+          "friendlyname":{
+                    "value": "fHDHR-YTTV",
+                    "config_file": true,
+                    "config_web": true
+                },
+          "tuner_count":{
+                    "value": "2",
+                    "config_file": true,
+                    "config_web": true
+                },
+          "reporting_firmware_name":{
+                                    "value": "fHDHR_YTTV",
+                                    "config_file": true,
+                                    "config_web": true
+                                  }
+  },
+  "epg":{
+          "method":{
+                    "value": "origin",
+                    "config_file": true,
+                    "config_web": true
+                },
+          "valid_epg_methods":{
+                          "value": "None,blocks,origin",
+                          "config_file": false,
+                          "config_web": false
+                        }
+  },
+  "yttv":{
+          "username":{
+                    "value": "none",
+                    "config_file": true,
+                    "config_web": true
+                },
+          "password":{
+                    "value": "none",
+                    "config_file": true,
+                    "config_web": true,
+                    "config_web_hidden": true
+                },
+          "yttv_quality":{
+                    "value": "none",
+                    "config_file": true,
+                    "config_web": true
+                },
+          "ffmpeg_fps":{
+                    "value": "12",
+                    "config_file": true,
+                    "config_web": true
+                },
+          "ffmpeg_quality":{
+                    "value": "32",
+                    "config_file": true,
+                    "config_web": true
+                },
+          "audio_delay":{
+                    "value": "400",
+                    "config_file": true,
+                    "config_web": true
+                },
+          "stream_port":{
+                    "value": "9000",
+                    "config_file": true,
+                    "config_web": true
+                }
+  }
+}
