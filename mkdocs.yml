@@ -1,0 +1,24 @@
+---
+  site_name: fHDHR Docs
+  site_description: The official guide for the fHDHR template
+  site_author: deathbybandaid
+    
+  repo_url: https://github.com/fHDHR/fHDHR_Template/
+  repo_name: fHDHR/fHDHR_Template/
+  
+  theme:
+    name: material
+    features:
+      - navigation.instant
+    language: en
+    favicon: images/logo.ico
+  
+  nav:
+    - Home: README.md
+    - Config:
+      - Basic Config: Config.md
+      - Advanced Config: ADV_Config.md
+    - Usage: Usage.md
+    - WebUI: WebUI.md
+    - Related Projects: Related-Projects.md
+    - Site links: Origin.md
