@@ -1,9 +1,0 @@
-{
-  "ffmpeg":{
-          "path":{
-                    "value": "ffmpeg",
-                    "config_file": true,
-                    "config_web": true
-                }
-  }
-}
